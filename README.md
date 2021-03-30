@@ -63,7 +63,7 @@ Our venture to create a classifier which performed above the null model was succ
 Our CNN model will have notable trouble accurately classifying patients depending on the presentation of the illness. A normal chest x-ray does not exclude Covid-19 pneumonia, as Covid-19 pneumonia may not actually be visible on radiographs. The observed ground glass pattern indicating infection occurs in both atypical and typical pneumonia and may present differently in individual patients, which could cause misclassification between the typical and atypical pneumonia classes. Taking these into consideration, the model is only be viable for patients with serious presentations of respiratory symptoms. 
 
 #### Improvements
-Though the model showed strong predictive power, there are improvements to note going forward. The size of the dataset was small, which has potentially hindered the generalibility of the model and it will be highly beneficial to continue to improve model performance with more data. Although we obtained a strong predicitive model, there are many other iterations to be explored within the convolutional neural network realm. 
+Though the model showed strong predictive power, there are improvements to note going forward. The size of the dataset was small, which has potentially hindered the generalizability of the model and it will be highly beneficial to continue to improve model performance with more data. Although we obtained a strong predicitive model, there are many other iterations to be explored within the convolutional neural network realm. 
 
 
 #### Citations & Sources
