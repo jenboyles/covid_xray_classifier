@@ -10,7 +10,7 @@ Below is a table of contents, which contains the file name, file order, and file
 **File Name**|**File Order**|**File Description**
 :-----:|:-----:|:-----:
 README.md|1|The README file contains the executive summary and overview of the project as a whole.
-COVID-19 Radiography Database|2|File directory contains all of the images used during model training.
+images|2|Example of the chest x-rays used during model training.
 cnn-modeling\_v2.ipynb|3|The cnn-modeling.ipynb contains all iterations of convolutional neural net models trained.
 model-visualizations|4|A directory containing two images on accuracy and recall scores from the final production model.
 powerpoint-presentation.pdf|5|A pdf containing the powerpoint slides our team used during project presentations.
