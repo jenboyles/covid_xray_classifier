@@ -42,7 +42,7 @@ The dataset of anterior-posterior and posterior-anterior chest x-rays was obtain
 
 Each image in the testing, validation, and testing dataset was rescaled and standardized to get pixel values between [0,1]. Below is an example of the radiography our team was using in the convolution neural network modeling. This image is an anterior-posterior chest x-ray from the Normal class. In this chest x-ray, the extending branches of the bronchi of the lungs are clearly seen and without ground glass or consolidation presentation has been classified as medical professionals as normal. 
 
-<img src="COVID-19 Radiography Database Split/TRAIN/NORMAL_train/NORMAL (17).png" width ="400" height="400">
+<img src="images/NORMAL-17.png" width ="400" height="400">
 
 
 #### Final Production Model
