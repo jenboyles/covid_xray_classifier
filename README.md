@@ -7,13 +7,15 @@ This project was released on 2/10/2021, so the statistics represented below migh
 ### Table of Contents
 Below is a table of contents, which contains the file name, file order, and file description. The file order column represents which order the files should be opened and read. File Order 1 should be started with. 
 
-|File Name|File Order||File Description|
-|---------|----------||----------------|
-|README.md|1| The README file contains the executive summary and overview of the project as a whole.  |
-|COVID-19 Radiography Database|2| File directory contains all of the images used during model training.  | 
-|cnn-modeling_v2.ipynb|3| The cnn-modeling.ipynb contains all iterations of convolutional neural net models trained.  |
-|powerpoint-presentation.pdf|4| A pdf containing the powerpoint slides our team used during project presentations.  |
-|model-visualizations|5| A directory containing two images on accuracy and recall scores from the final production model.  |
+**File Name**|**File Order**|**File Description**
+:-----:|:-----:|:-----:
+README.md|1|The README file contains the executive summary and overview of the project as a whole.
+images|2|Example of the chest x-rays used during model training.
+cnn-modeling\_v2.ipynb|3|The cnn-modeling.ipynb contains all iterations of convolutional neural net models trained.
+model-visualizations|4|A directory containing two images on accuracy and recall scores from the final production model.
+powerpoint-presentation.pdf|5|A pdf containing the powerpoint slides our team used during project presentations.
+airadiologist.py|6| Python script to create streamlit app for demo.
+requirements.txt|7|The Python modules you need to read the notebook.
 
 
 #### The Problem
@@ -22,7 +24,7 @@ The world at large is currently in the midst of one of the largest healthcare cr
 As hospitalizations for Covid-19 continue to occur at the current rate, it is paramount that rapid and accurate Covid-19 testing on patients with respiratory illness is occurring. Our team strove to discover if there was a fast and reliable way to identify Covid-19 infection in hospitalized patients using chest X-rays and deep learning techniques.  
 
 #### The Solution
-To the benefit of modern medicine, X-ray or Radiography was developed in 1985 by mechanical engineer and physicist Wilhelm Roentgen. An X-ray is a diagnostic tool, which uses ionized radiation to take pictures of body structures. The varying densities of body tissues and bones will absorb and/or block radiation as it passes through. A sensor, situated on the other side of the body, will capture the incoming radiation and present an image. The denser portions of the body show up on the X-ray as white areas, while less dense portions will appear darker. 
+To the benefit of modern medicine, X-ray or Radiography was developed in 1895 by mechanical engineer and physicist Wilhelm Roentgen. An X-ray is a diagnostic tool, which uses ionized radiation to take pictures of body structures. The varying densities of body tissues and bones will absorb and/or block radiation as it passes through. A sensor, situated on the other side of the body, will capture the incoming radiation and present an image. The denser portions of the body show up on the X-ray as white areas, while less dense portions will appear darker. 
 
 Also to our benefit, Covid-19 pneumonia can present as an atypical form of viral pneumonia; in contrast with typical viral pneumonia. The presenting symptoms of atypical vs typical pneumonia are readily visible on chest radiography and can be distinctive, which allows radiologists to help diagnose patients with respiratory disease. 
 
